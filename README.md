@@ -216,7 +216,7 @@ from any directory with a `deploy-to.json` config file
 To make it super easy to do, add the following alias to your `.bashrc` file
 
 ```bash
-alias deployto='/bin/sh /`*`[path to where deployto files are stored]`*`/deploy-to.sh';
+alias deployto='/bin/sh /[path to where deploy-to files are stored]/deploy-to.sh';
 ```
 This will allow you to execute
 
@@ -241,6 +241,6 @@ running  `deployto `*`[target]`*` force`
 
 ---
 
-Author:  Evan Wills <evan.wills@acu.edu.au><br />
+Author:  Evan Wills<br />
 Created: 2021-09-23 15:08 <br />
-Updated: 2022-04-29 23:38
+Updated: 2022-12-16 11:07
