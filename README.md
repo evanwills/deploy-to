@@ -21,7 +21,7 @@ updated files to a chosen environment.
 
 The script expects up to two arguments.
 
-If no arguments are supplied recently updated files are deployed
+If no arguments are supplied, recently updated files are deployed
 to the default environment. 
 
 e.g.
@@ -60,7 +60,7 @@ or
 deployto force prod
 ```
 
-This script depends on a PHP script (deploy-to.php) to do the
+This script depends on a PHP script (`deploy-to.php`) to do the
 heavy lifting of working out which files out of all the eligible
 files should be deployed. deploy-to.php generates a Bash script
 that is then executed by deploy-to.sh before being deleted.
@@ -123,7 +123,7 @@ application you wish to deploy to an environment.
 * `servers` *{`object[]`}* List of details for each deployment target 
   the application can deploy to (see [`servers`](#servers) for more 
   info on config for each server.)
-* `sourceList` *`string[]`}* List of files and/or directories in the 
+* `sourceList` *{`string[]`}* List of files and/or directories in the 
   application that should be deployed.
 
   Items can be any of the following format:
