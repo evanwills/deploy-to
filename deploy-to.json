@@ -1,0 +1,34 @@
+{
+  "default": "local",
+  "servers": [
+    {
+      "name": "prod",
+      "aliases": [],
+      "host": "",
+      "user": "username",
+      "path": "/var/www/html/"
+    },
+    {
+      "name": "dev",
+      "aliases": [],
+      "host": "",
+      "user": "username",
+      "path": "/var/www/html/"
+    },
+    {
+      "name": "local",
+      "aliases": [],
+      "host": "",
+      "user": "username",
+      "path": "/var/www/html/"
+    }
+  ],
+  "sourceList": [
+  ],
+  "multi": false,
+  "exclude": {
+    "extensions": [],
+    "paths": [],
+    "parts": []
+  }
+}
